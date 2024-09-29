@@ -1,0 +1,62 @@
+.custom-table {
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.custom-table table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto; /* Allow columns to take up space based on content */
+}
+
+.custom-table th, .custom-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #dddddd; /* Add borders to cells */
+    word-wrap: break-word; /* Ensure text wraps within cells */
+    box-sizing: border-box;
+    white-space: normal;
+    width: 1%; /* Allow columns to shrink and grow based on content */
+}
+
+.custom-table thead {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+td img {
+    width: 100px;
+    height: auto;
+}
+
+.custom-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.custom-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.custom-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
